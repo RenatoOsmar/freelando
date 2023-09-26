@@ -6,6 +6,6 @@ const estilos = css`
 }`
 
 
-const Estilos = () =>{
+ export const Estilos = () =>{
     return(<Global  styles = {estilos}/>);
 }

@@ -1,9 +1,17 @@
+import React from 'react';
+import { Estilos } from './componentes/EstilosGlobais/Estilos';
+import { Card } from './componentes/Card/Card';
+import { ProvedorTema } from './componentes/ProvedorTema/ProvedorTema';
 
-function App() {
+
+export function App() {
   return (
-    <div className="App">
-      <h1>Freelando</h1>
-    </div>
+    <ProvedorTema>
+      <Estilos />
+        <Card>
+           <h1>@freelando</h1>
+        </Card>
+    </ProvedorTema>
   );
 }
 
